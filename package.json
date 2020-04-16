@@ -7,14 +7,16 @@
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "preinstall": "npx npm-force-resolutions"
+    "preinstall": "npx npm-force-resolutions",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^25.1.0",
     "lite-server": "^2.3.0",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "node-sass": "^4.13.1"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
