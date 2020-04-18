@@ -36,6 +36,7 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "bootstrap-social": "^5.1.1",
+    "clean-css": "^4.1.11",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
     "ohz": "^0.1.2",
